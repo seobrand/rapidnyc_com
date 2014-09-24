@@ -1,0 +1,19 @@
+.agentCard div.agentPhoto { float: left;  }
+.agentCard div.agentData { padding-left: 225px; padding-top: 5px; }
+.agentCard div.officeData { padding-left: 100px; padding-top: 5px; }
+
+.agentCard .clear { clear:both; }
+
+
+.agentCard .firstName { font-size: 30px; color: #5a7b00; font-weight: 500; margin-bottom: 5px; }
+.agentCard .lastName { font-size: 15px; color: #999; font-weight: 400; margin-bottom: 8px; }
+.agentCard .title { font-size: 12px; font-style:italic; line-height: 1.5em; margin-bottom: 10px; }
+.agentCard .phone { font-size: 17px; font-weight: 600; padding-top: 15px; }
+.agentCard .email { font-size: 13px; }
+.agentCard .signature { font-size: 12px; line-height: 1.5em; margin-top: 15px; padding-top: 10px; border-top: 1px dashed #cecece; }
+
+
+.agentCard .officeName { font-size: 30px; color: #5a7b00; font-weight: 500; margin-bottom: 14px; margin-top: 3px; }
+.agentCard .officeTitle { font-size: 12px; font-style:italic; line-height: 1em; margin-bottom: 10px; }
+.agentCard .officePhone { font-size: 17px; font-weight: 600; padding-top: 12px; }
+.agentCard .officeEmail { font-size: 13px; }

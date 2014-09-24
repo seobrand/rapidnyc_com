@@ -1,0 +1,40 @@
+.x4 { }
+.x4 .col { width: 193px; margin-right: 5px; float: left; }
+.x4 .clear { clear:both; }
+
+.x6 { }
+.x6 .col { width: 132px; margin-right: 10px; float: left; }
+.x6 .clear { clear:both; }
+
+
+h3 { margin-top: 1.2em; font-weight: 600; }
+
+
+
+
+#neighborhoodDiv .neighborhood_list_div { margin-top: 15px; }
+#neighborhoodDiv .neighborhood_list_div h3 { margin-top: 0; }
+#rentDiv #rentSliderWrap { margin-top: 17px; }
+#rentDiv #rentSliderWrap .ui-widget-header { background: #ffab32; }
+#rentDiv #rentSliderWrap .ui-slider { width: 380px; }
+#rentDiv #rentSliderWrap input.slider_input { border:0; font-size: 18px; font-family: Arial, sans-serif; color:#666; font-weight:normal; float: left; width: 180px; margin: -4px 0 0 395px; padding:0; line-height: 1em; }
+
+
+/* hide the mobile rent slider */
+#rentDiv #rentSliderWrap_mobile { display: none; padding-top: 10px; }
+#idDiv { margin-bottom: 10px; text-align: right; }
+#idDiv div.input { float: right; padding-right: 3px; }
+#idDiv label { color: #999; }
+#idDiv input.searchId {
+	border-color:#c6c6c6 #dadada #eaeaea;
+	background: #fafafa;
+	color:#999;
+	font-size:14px;
+	font-family:inherit;
+	margin: 0;
+	width: 70px;
+	padding: 2px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}

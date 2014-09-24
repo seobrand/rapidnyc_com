@@ -1,0 +1,28 @@
+
+.testimonialRows .testimonial {
+	width: 375px;
+	height: 165px;
+	float: left;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.testimonialRows .testimonial.first {
+	clear: both;
+	margin-right: 20px;
+}
+.testimonialRows .testimonial.last {
+	margin-right: 0;
+}
+
+.testimonialRows .testimonial .testimonialPhoto {
+	float: left;
+	margin-right: 0px;
+}
+
+.testimonialRows .testimonial .tetimonialQuote {
+	font-size: 13px;
+	line-height: 1.4em;
+	font-weight: 500;
+	margin-top: 14px;
+	padding-right: 5px;
+}

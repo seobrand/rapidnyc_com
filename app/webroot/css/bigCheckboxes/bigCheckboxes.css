@@ -1,0 +1,69 @@
+.checkboxDiv {
+	min-height: 35px;
+}
+	.checkboxDiv span {
+		display: inline-block;
+		padding-top: 3px;
+		margin: 0;
+	}
+
+.checkboxDiv .checkboxImgDiv {
+	display: none;
+	width: 32px;
+	float: left;
+	margin: none;
+}
+	.checkboxDiv .checkboxImgDiv img {
+		border: none;
+		margin: none;
+	}
+	
+
+/* Customize checkbox style */
+.checkboxDiv {
+	display: inline-block;
+	width: 175px;
+}
+.checkboxDiv span {
+	font-size: 16px;
+	line-height: 1em;
+	color: #555;
+	padding-top: 5px;
+}
+
+
+
+input.bigCheckbox.hidden { display:none; }
+div.bigCheckbox { display: inline-block; min-height: 25px; }
+div.bigCheckbox span.box { float: left; width:27px; height:25px; background:url(images/checkbox-unchecked.png); }
+div.bigCheckbox span.box.disabled { background:url(images/checkbox-unchecked-disabled.png); }
+div.bigCheckbox span.box.hover { background:url(images/checkbox-unchecked-hover.png); }
+div.bigCheckbox span.box.checked { background:url(images/checkbox-checked.png); }
+div.bigCheckbox span.box.checked.disabled { background:url(images/checkbox-checked-disabled.png); }
+div.bigCheckbox span.box.checked.hover { background:url(images/checkbox-checked-hover.png); }
+div.bigCheckbox span.box.unavailable,div.bigCheckbox span.box.unavailable.disabled { background:url(images/checkbox-unavailable.png); }
+div.bigCheckbox span.box.unavailable.hover { background:url(images/checkbox-unavailable-hover.png); }
+/* usage example: 
+<input type="checkbox" class="bigCheckbox"> - can include class "unavailable" to "X" out the box
+*/
+
+
+
+
+/*
+<div class="bigCheckbox">
+	<span>Label goes here</span>
+	
+
+<div class="checkboxDiv">
+            <span><? echo $box_label; ?></span>
+            <div id="emptyBox_<? echo $box_id; ?>" class="checkboxImgDiv">
+            <img src="<? echo $_path['relative_root']; ?>images/checkbox-empty.png" name="checkbox-empty_<? echo $box_id; ?>" width="27" height="25" border="0" onClick="toggleCheckbox('<? echo $box_id; ?>'); <? echo $box['onClick']; ?>" onkeypress="toggleCheckbox('<? echo $box_id; ?>');" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('checkbox-empty_<? echo $box_id; ?>','','<? echo $_path['relative_root']; ?>images/checkbox-empty-hover.png',1)" onblur="MM_swapImgRestore()" onfocus="MM_swapImage('checkbox-empty_<? echo $box_id; ?>','','<? echo $_path['relative_root']; ?>images/checkbox-empty-hover.png',1)" />
+            </div>
+            <div id="checkedBox_<? echo $box_id; ?>" class="checkboxImgDiv">
+            <img src="<? echo $_path['relative_root']; ?>images/checkbox-yes.png" name="checkbox-yes_<? echo $box_id; ?>" width="27" height="25" border="0" onClick="toggleCheckbox('<? echo $box_id; ?>'); <? echo $box['onClick']; ?>" onkeypress="toggleCheckbox('<? echo $box_id; ?>');" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('checkbox-yes_<? echo $box_id; ?>','','<? echo $_path['relative_root']; ?>images/checkbox-yes-hover.png',1)" onblur="MM_swapImgRestore()" onfocus="MM_swapImage('checkbox-yes_<? echo $box_id; ?>','','<? echo $_path['relative_root']; ?>images/checkbox-yes-hover.png',1)" />
+            </div>
+            <input type="hidden" name="<? echo $box_name; ?>" id="valueBox_<? echo $box_id; ?>" value="<? if ($box_checked) echo $box_value; ?>" />
+            <input type="hidden" id="defaultValueBox_<? echo $box_id; ?>" value="<? echo $box_value; ?>" />
+            </div>
+*/                      

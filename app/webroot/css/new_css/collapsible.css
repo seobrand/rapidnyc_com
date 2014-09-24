@@ -1,0 +1,91 @@
+
+
+.collapsible,
+.page_collapsible {
+    margin: 0;
+   
+    
+
+   
+    
+
+    
+    
+}
+
+.collapse-open {
+    
+     
+}
+
+.collapse-open span {
+  /*  display:block;
+    float:right;
+    padding:10px;*/
+	color:#412e00;
+}
+
+.collapse-open span {
+ 
+}
+
+.collapse-close span {
+	color:#bfd85e;
+/*    display:block; 
+    float:right;
+    background:url(../images/plus.png) center center no-repeat;*/
+   
+}
+.faq_text_wrap{ margin:0 5px; padding:0 0 50px 0;}
+.faq_text_wrap02{ margin:0 5px; padding:0;}
+.faq_text_wrap p {
+  color: #392D25;
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  padding:15px 0;
+}
+.faq_text_wrap p span {
+  color: #BAD642;
+}
+.faq_text_wrap p  a{color: #BAD642;  font:bold 14px/18px Arial,Helvetica,sans-serif;}
+.faq_text_wrap h3.collapse-close{font:bold 14px/20px Arial, Helvetica, sans-serif; color:#392D25; margin-top:2em; margin-bottom:.5em;  background:url(../images/plus.png) left 2px no-repeat; padding-left:26px; cursor:pointer; }
+ 
+ 
+.faq_text_wrap h3.collapse-open{color:#BAD642; font:bold 14px/20px Arial, Helvetica, sans-serif; margin-top:2em; margin-bottom:.5em; background:url(../images/minus.png) left 2px no-repeat; padding-left:26px;cursor:pointer;}
+
+
+.feeRow h3.collapse-close{font:bold 14px/20px Arial, Helvetica, sans-serif; color:#392D25; margin-top:2em; margin-bottom:.5em;  background:url(../img/plus.png) left 2px no-repeat; padding-left:26px;  }
+ 
+ 
+.feeRow h3.collapse-open{color:#BAD642; font:bold 14px/20px Arial, Helvetica, sans-serif; margin-top:2em; margin-bottom:.5em; background:url(../img/minus.png) left 2px no-repeat; padding-left:26px;}
+
+div.container_cols {
+    padding:0 0 0 26px;
+    margin:0;
+}
+
+div.content {
+    background:#f0f0f0;
+    margin: 0;
+    padding:10px;
+    font-size:.9em;
+    line-height:1.5em;
+    font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div.content ul, div.content p {
+    margin:0;
+    padding:3px;
+}
+
+div.content ul li {
+    list-style-position:inside;
+    line-height:25px;
+}
+
+div.content ul li a {
+    color:#555555;
+}
+
+code {
+    overflow:auto;
+}

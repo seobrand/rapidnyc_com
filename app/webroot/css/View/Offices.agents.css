@@ -1,0 +1,7 @@
+div.officeList { text-align: center; }
+
+div.officeList h3 { font-size: 18px; font-weight: 600; color: #666; }
+
+div.agentDiv { margin-bottom: 1em; cursor: pointer; }
+
+div.officeDisclaimer { margin-top: 2em; font-size: .95em; text-align: center; }

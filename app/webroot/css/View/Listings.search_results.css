@@ -1,0 +1,45 @@
+.sortDiv { margin-bottom: 8px; font-size: 13px; font-weight: 500; padding: 0 6px; }
+.sortDiv a.newSearch { float: right; }
+.sortDiv a.sortResultsLink { display: none; }
+
+.pageDiv { position: relative; margin-bottom: 10px; padding-left: 6px; padding-right: 6px; font-size: 13px; }
+.pageDiv a { text-decoration: none; }
+.pageDiv a:hover { text-decoration: underline; }
+
+.pageDiv .resultsNumbers { display: inline-block; }
+
+.pageDiv .pageNumbers { float: right; }
+.pageDiv span.current { font-weight: bold; }
+.pageDiv .pageNumbers a[rel=last] { margin-left: 5px; }
+.pageDiv .pageNumbers a[rel=first] { margin-right: 5px; }
+
+
+
+.resultsDiv {}
+
+.resultsDiv .resultRow { padding: 10px 10px 10px 167px; margin-bottom: 7px; border-bottom: 1px solid #cecece; position:relative; height: 100px !important; height: 120px; }
+.resultsDiv .resultRow:hover { background: #f9f9f9; }
+
+.resultsDiv img.resultThumb {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	-moz-box-shadow: 1px 1px 3px #666;
+	-webkit-box-shadow: 1px 1px 3px #666;
+	box-shadow: 1px 1px 3px #666; 
+	border: 1px solid #999;
+	max-width:150px;
+	max-height:100px;
+}
+
+
+.resultsDiv h3, .resultsDiv h3 a { margin: 2px 0 3px; padding: 0; }
+.resultsDiv h3 { border-bottom: 1px solid #cecece; padding-bottom: 5px; }
+.resultsDiv h3 a { text-decoration: none; font-weight: 500; font-size: 18px; color: #533b00; }
+.resultsDiv h3 a:hover { color: #fa9300; }
+
+.resultsDiv .resultRow .description { font-size: 13px; width: 575px; height: 43px; overflow: hidden; line-height: 1.5em; font-size: 13px; }
+
+.resultsDiv .resultRow .no_fee_seal { position: absolute; bottom:13px; right:13px; }
+
+.noResults { margin-bottom: 10px; }

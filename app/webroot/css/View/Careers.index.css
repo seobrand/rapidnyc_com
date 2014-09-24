@@ -1,0 +1,11 @@
+div.careerVideoWrapper { margin-bottom: 10px; }
+div.careerVideo { display: none; }
+div.careerVideo.active { display: block; }
+div.careerVideoThumb { display: inline-block; padding: 5px; background: #fff; margin: 0 3px 7px 0; }
+div.careerVideoThumb:hover { background: #9ecce2; }
+
+.signupButton {
+	text-align: center;
+	padding: 40px;
+	border-top: 1px solid #cecece;
+}

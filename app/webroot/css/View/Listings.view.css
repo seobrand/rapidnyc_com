@@ -1,0 +1,107 @@
+h1 { font-family:Cantarell,serif; font-size: 24px; font-weight: 500; }
+
+
+
+.backToSearch { margin-bottom: 2em; padding-left: 10px; }
+.backToSearch a { text-decoration: none; font-size: 13px; }
+
+
+
+
+.viewDiv { position: relative; z-index: 10; }
+
+.viewDiv .rightMenu { position: absolute; top: 0; right: 0; width: 70px; height: 140px; background: #fff; z-index: 20; }
+.viewDiv .rightMenu .addthis_toolbox {
+	position: absolute;
+	right: 8px;
+    padding: 6px 6px 2px;
+    width: 32px;
+	border: 1px solid #cecece;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.viewDiv .rightMenu .addthis_toolbox .custom_images a {
+	width: 32px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+.viewDiv .rightMenu .addthis_toolbox .custom_images a img { border: 0; margin: 0 0 6px; opacity: 1.0; }
+.viewDiv .rightMenu .addthis_toolbox .custom_images a:hover img { margin-left: -2px; opacity: 0.75; }
+
+
+
+.viewDiv .imageDiv { }
+.viewDiv .photoDiv {
+	/* border: 1px solid #EEEEEE;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px #888888; */
+	height: 350px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	position: relative;
+	padding: 10px;
+	width: 450px;
+}
+
+.slides li > img {
+    max-height: 340px;
+    max-width: 450px;
+}
+.ps_loader{
+	width:70px;
+	height:70px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-35px 0px 0px -35px;
+	opacity:0.7;
+	z-index:1000;
+	background:#fff 	url(../sweetThumbnails/images/loader.gif) no-repeat center center;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	-moz-box-shadow:0px 0px 5px #999;
+	-webkit-box-shadow:0px 0px 5px #999;
+	box-shadow:0px 0px 5px #999;
+}
+
+.viewDiv .searchActionDiv { width: 400px; margin-left: 30px; }
+.viewDiv .searchActionDiv a { display: block; text-transform:uppercase; text-align: center; }
+
+
+.viewDiv .mapDiv { 
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	-moz-box-shadow: 1px 1px 5px #cecece;
+	-webkit-box-shadow: 1px 1px 5px #cecece;
+	box-shadow: 1px 1px 5px #cecece;
+}
+.viewDiv .mapDiv #view_map { width: 400px; height: 300px; }
+
+.viewDiv .agentCardDiv { width: 400px; margin-left: 30px; margin-top: 40px; margin-bottom: 40px; }
+.viewDiv .agentCardDiv .agentCard .title { width: 200px!important; } /* allow the title to be a bit longer, because it tends to get text-wrapped */
+
+
+
+.viewDiv .summaryDiv { position: relative; }
+.viewDiv .summaryDiv h2 { margin-top: 0; }
+
+.viewDiv .summaryDiv table.viewDetails { margin-left: -6px; width: 100%; }
+.viewDiv .summaryDiv table.viewDetails td { padding: 4px 7px; border-bottom: 1px solid #e1e1e1; }
+.viewDiv .summaryDiv table.viewDetails td.last { border-bottom: none; }
+.viewDiv .summaryDiv table.viewDetails td .heavy { font-weight: 600; padding-right: 15px; }
+
+
+.viewDiv .viewDetailsWrapper { position: relative; padding-left: 6px; }
+.viewDiv .viewDescriptionWrapper { padding: 0 6px; }
+.viewDiv .viewDescriptionWrapper .viewVideo { margin-top: 15px; }
+
+.viewDiv .viewDetailsWrapper img#viewSearchArrow { position: absolute; bottom: 0px; right: -20px; background: #fff; }
+
+
+.viewDiv .viewNeighborhoodWrapper {  }
+

@@ -1,0 +1,12 @@
+div.feeRow {
+	border-top: 1px solid #cecece;
+}
+
+div.feeRow.first {
+	border-top: none;
+}
+
+div.feeRow h3 {
+	font-weight: 600;
+	font-size: 1.1em;
+}

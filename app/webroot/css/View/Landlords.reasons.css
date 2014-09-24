@@ -1,0 +1,18 @@
+.reasonRow {
+	border-bottom: 1px solid #cecece;
+	padding: 10px 0 10px;
+	min-height: 180px;
+}
+.reasonRow .reasonImg {
+	float: left;
+	margin-top: 16px;
+}
+.reasonRow .reason {
+	margin-left: 240px;
+}
+
+.signupButton {
+	text-align: center;
+	padding: 40px;
+	border-bottom: 1px solid #cecece;
+}

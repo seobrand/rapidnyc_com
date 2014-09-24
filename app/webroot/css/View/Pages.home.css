@@ -1,0 +1,92 @@
+#homeSearch { width: 730px; margin: 0 auto; position: relative; }
+
+#homeSearch #homesearchArrow { position: absolute; top: -25px; right: -110px; }
+
+#homeSearch #homeSearchError { display: none; margin-bottom: 35px; font-weight: 600px; }
+
+
+/* #homeSearchTabs { margin-left: 420px; width: 280px; } */
+
+
+#homeSearchTabs {
+	position: relative;
+	background: #fff;
+/*	border: none; */
+	
+	margin-top: -20px;
+}
+#homeSearchTabs .ui-tabs-nav {
+	position: absolute;
+	left:0; right:0;
+	bottom: -30px;
+	background: transparent;
+	border: none;
+/*	border-top: 1px solid #c0c0c0; */
+	font-size: 13px;
+}
+#homeSearchTabs .ui-state-default {
+	background: transparent;
+	border: none;
+}
+#homeSearchTabs .ui-state-active {
+	border: none;
+}
+#homeSearchTabs .ui-state-default a {
+	color: #c0c0c0;
+}
+#homeSearchTabs .ui-state-active a {
+	color: #fe9500;
+}
+#homeSearchTabs .ui-tabs-panel {
+	height: auto;
+	overflow: auto;
+}
+
+
+#homeSearchTabs .x3 { }
+#homeSearchTabs .x3 .col { width: 203px; margin-right: 15px; float: left; }
+#homeSearchTabs .x3 .clear { clear:both; }
+
+
+
+
+#homeSearch #boroughMapImg { border: 3px solid #333; float: left; }
+#homeSearch div.region_div { margin-left: 430px; }
+#homeSearch { font-size: 12px; }
+#homeSearch p { margin-bottom: .5em; }
+
+#homeSearchTabs h2 { margin: 0 0 .5em 0; font-size: 19px; font-weight: 500; color: #fa9300; }
+#homeSearchTabs h2 a { text-decoration: none; color: #fa9300; }
+
+#homeSearchTabs h3 { 
+	margin:0 0 10px 0;
+	font-size: 14px; 
+	font-weight: 500;
+	line-height: normal;
+}
+
+#homeSearchTabs a.button { margin-top: .7em; }
+#homeSearchTabs #tab2 a.button.topRight { position: absolute; top: 8px; right: 20px; }
+
+#homeSearchTabs .search_tab ul { margin:0; }
+#homeSearchTabs .search_tab ul li { list-style: none; margin: 0; padding: 0; font-size: 12px; }
+
+#homeSearchTabs div.region_list { margin:8px 0 0 0; }
+#homeSearchTabs div.region_list div { list-style: none; margin: 0 0 2px 0; padding: 0; font-size: 14px; }
+#homeSearchTabs div.region_list div label { display: inline-block; padding-top: 3px; margin-left: 1px; }
+#homeSearchTabs div.region_list div label a { text-decoration: none; color: #333; }
+
+#homeSearchTabs div.neighborhood_list_div { display: none; }
+#homeSearchTabs div.neighborhood_list { margin-bottom: 1em; }
+
+#homeSearchTabs #neighborhoodDiv { display: none; }
+
+#homeSearchTabs #featureDiv { margin-top:15px; margin-bottom: 10px; }
+
+.inner-ads{ height: 90px;
+    margin: 10px 0 0 0px;
+    position: relative;
+    text-align: center;
+    z-index: 9999;
+}
+
